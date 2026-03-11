@@ -1,0 +1,19 @@
+{
+  "name": "excel-parse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "export": "node ./index.js --sourcepath=./test.xlsx --exportpath=./test.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "excel": "^1.0.1",
+    "minimist": "^1.2.5",
+    "ora": "^5.4.1"
+  }
+}
